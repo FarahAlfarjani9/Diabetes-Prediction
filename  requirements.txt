@@ -1,5 +1,5 @@
 pandas
 numpy
-sklearn
-joblib
+scikit-learn==1.3.2
+joblib==1.3.2
 openpyxl
