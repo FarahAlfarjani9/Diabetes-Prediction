@@ -1,14 +1,3 @@
-import sys
-import streamlit as st
-
-st.write("Python version:", sys.version)
-
-try:
-    import joblib
-    st.success("✅ joblib is installed")
-except Exception as e:
-    st.error(f"❌ joblib import failed: {e}")
-    
 import joblib
 import streamlit as st
 import numpy as np
